@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 02</title>
+</head>
+<body>
+  <h1>Imágenes y links</h1>
+  <!--
+    Las etiquetas de imagen son solo una, no llevan de etiqueta de cierre.
+
+    El contenido se inyecta atraves del atributo src (de formara absoluta o relativa)
+    El atributo alt muestra un texto descriptivo de la foto
+    Y con los atributos width y heigth, podemos modificar su tamaño
+  -->
+
+  <!-- Imagen con ruta relativa -->
+  <img src="../materialApoyo/absolutePath.png" alt="Imagen1" width="" height=""/>
+  
+  <!-- Imagen con ruta absoluta -->
+  <img src="http://images6.fanpop.com/image/photos/39500000/il-570xN-917420114-2kdu-rick-and-morty-39567961-300-370.jpg" alt="imagen2">
+
+  <!-- hipervinculos o links -->
+  <a href="http://google.com">Esto es un hipervínculo hacia Google</a>
+  <a href="./segundo.html">Lleva al segundo documento</a>
+  <a href="#idDeSeccion">Llevame a alguna sección de esta misma página</a>
+  <a href="mailto:astephy.salazar@gmail.com">Mail</a>
+
+
+  <!-- Estructura semántica HTML5  -->
+  <header>
+    <h1>Encabezado de nuestro sitio</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./segundo.html">Bio</a></li>
+    </ul>
+  </nav>
+  
+  <aside>
+    <p>Texto de la barra de costado del sitio</p>
+  </aside>
+
+  <article>
+    <p>Autor: Nombre del Autor</p>
+    <time>14:00</time>
+    <address>
+      Datos sobre las direcciones del auto, tanto físicas como online
+    </address>
+  </article>
+  
+  <section>
+    <h2>Nueva sección de nuestro sitio</h2>
+    <p>Contenido de nuestro sitio</p>
+  </section>
+
+  <video
+    src="https://www.google.com/url?sa=t&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwil2YLwqu7zAhVYnGoFHU55D4wQ3yx6BAgIEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbKSRegDHjbo&usg=AOvVaw1zTjZFG-GLbyI9tLWAJ3mC"
+    poster="../materialApoyo/relativePath.png"
+    width="600"
+    height="400"
+    controls
+  >
+    <p>Este video es para probar la etiqueta..</p>
+  </video>
+    
+  <p>&lt; Esto representa el caracter menor que (<)</p>
+  <p>&gt; Esto representa el caracter mayor que (>)</p>
+  <p>&amp; Esto representa el caracter ampersand (&)</p>
+  <p>&copy; Esto representa el símbolo de Copyright</p>
+  <p>&reg; Esto representa el símbolo de trademark registrado</p>
+  <p>&trade; Esto representa el símbolo de trademark</p>
+
+  <section>
+    <table>
+      <tr>
+        <td>Primer Celda de la primer fila</td>
+        <td>Segunda Celda de la primer fila</td>
+      </tr>
+      <tr>
+        <td>Primer Celda de la segunda fila</td>
+        <td>Segunda Celda de la segunda fila</td>
+      </tr>
+    </table>
+
+    <table border="1" bgcolor="gray">
+      <thead>
+        <tr>
+          <th>Desc. Columna 1</th>
+          <th>Desc. Columna 1</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td bgcolor="white">Primer Celda de la primer fila</td>
+          <td>Segunda Celda de la primer fila</td>
+        </tr>
+        <tr>
+          <td>Primer Celda de la segunda fila</td>
+          <td>Segunda Celda de la segunda fila</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Primer Celda del pie</td>
+          <td>Segunda Celda del pie</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <section>
+    <form action="">
+      <input type="text">
+      <input type="checkbox" name="" id="">
+      <input type="color" name="" id="">
+      <input type="date" name="" id="">
+
+      <select name="opciones">
+        <option>Opción 1</option>
+        <option>Opción 2</option>
+        <option>Opción 3</option>
+      </select>
+    </form>
+  </section>
+
+  <footer>
+    <p>Pie de nuestro sitio</p>
+  </footer>
+</body>
+</html>
