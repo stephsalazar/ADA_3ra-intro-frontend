@@ -1,0 +1,89 @@
+/* Estructura de comentario en CSS */
+
+/* 
+  Sintáxis de CSS (todo va en inglés)
+    selector {
+      nombre_de_propiedad: valor;
+    }
+*/
+
+/*
+Tipos de selectores:
+  - selector universal: *
+  - selector de etiqueta: h1, p, section, footer
+  - selector por clase: .nombreDeClase .secciones
+  - selector por ID: #IDdefinido #principal
+*/
+
+/*Unico selector*/
+body {
+  background-color: burlywood;
+}
+
+/*Varios selectores, separados por comas*/
+h1, h2 {
+  background-color: aqua;
+  color: red;
+}
+
+#principal {
+  font-style: italic;
+}
+
+.secciones {
+  background-color: chartreuse;
+}
+
+p.individual {
+  color: white;
+}
+
+.individual {
+  font-weight: bold;
+}
+
+span {
+  color: #359567;
+}
+
+div>p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Colores: 
+  Por nombre: black, pink, green...
+  RGB:
+    rojo: rgb(255, 0, 0)
+    verde: rgb(0, 255, 0)
+    azul: rgb(0, 0, 255)
+    ?: rgb(135, 200, 28)
+  HEXA: #XXXXXX
+    blanco: #FFFFFF
+    negro: #000000
+    rojo: #FF0000
+    verde: #00FF00
+    azul: #0000FF
+    ?: #359567
+  HUE:
+    negro: hsl(0, 0%, 0%)
+    blanco: hsl(0, 0%, 100%)
+    rojo: hsl(0, 100%, 50%)
+*/
+
+
+/*Tipografias:
+  font-family
+  font-size: 20px / 25% / 3em
+  font-weight: normal, bold, semi-bold / 100 - 900
+  font-style: italic, oblique, normal
+
+  text-transform: uppercase / lowercase
+  text-align: center, left, rigth, justify
+  vertical-align: top, center, bottom
+
+*/
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
