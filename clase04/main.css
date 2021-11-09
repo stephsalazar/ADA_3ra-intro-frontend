@@ -1,0 +1,56 @@
+p {
+  overflow: scroll;
+  background-color: aqua;
+  /* padding: 50px 10px 25px 30px;
+  margin: 100px; */
+  border: 5px solid black;
+  box-sizing: border-box;
+  /* border-width: 12px;
+  border-style: groove;
+  border-color:blueviolet; */
+  /* padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px; */
+  /* margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; */
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+#contentBox {
+  /* Respeta el tamaño del contenido y le suma bordes y rellenos
+  para obtener el tamaño total del elemento */
+  box-sizing: content-box;
+  background-color: pink;
+  width: 350px;
+  padding: 15px;
+  border: 10px dotted red;
+  display: hidden;
+  box-shadow: 20px 20px 20px 20px blueviolet;
+}
+
+#borderBox {
+  /* Ocupar el tamaño del contenido al agregar bordes y rellenos */
+  box-sizing: border-box;
+  background-color: teal;
+  width: 350px;
+  padding: 50px;
+  border: 10px dotted blue;
+}
+
+/* overflow: hidden y scroll:
+  hidden: Esconde el contenido y evita que se desborde
+  fuera del contenedor pero no me permite verlo completo 
+  scroll: Tambien evita que desborde fuera del contenedor y 
+  Agrega una barra para que el usuario pueda deslizar y
+  ver el contenido completo
+*/
+
+/* display: Propiedad que nos permite cambiar el comportamiento de
+un elemento (block, inline)
+
+display: inline, block, inline-block, none, hidden, visible,
+*/
