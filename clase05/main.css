@@ -1,0 +1,59 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* FLEXBOX:
+  EL contenedor debe indicar que es flexible con la
+  propiedad: display: flex;
+
+  Para manejar direccion: flex-direction: row, column, row-reverse y column-reverse
+  Para manejar espacios horizontalmente: justify-content
+  Para manejar espacios verticalmente: align-items
+*/
+
+.container {
+  width: 80%;
+  max-width: 640px;
+  min-height: 500px;  
+  margin: 10% 25%;
+  background-color: #d3d3d3;
+  display: flex;
+}
+
+.container-row{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-rowreverse{
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.container-column{
+  flex-direction: column;
+}
+
+.container-columnreverse{
+  flex-direction: column-reverse;
+}
+
+.item{
+  width: 100px;
+  max-height: 100px;
+  line-height: 100px;
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #bc3b69;
+}
+
+.item1 {
+  order: 3;
+}
+
+.item4 {
+ order: 1;
+}
