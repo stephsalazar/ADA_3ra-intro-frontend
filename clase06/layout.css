@@ -1,0 +1,48 @@
+body {
+  height: 100%;
+  background-color: hotpink;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+
+main {
+  background-color: silver;
+  flex-grow: 2;
+  margin: 2%;
+}
+
+aside {
+  background-color: tan;
+  flex-grow: 1;
+  margin: 2%;
+}
+
+footer {
+  height: 300px;
+  background-color: indigo;
+}
+
+#menu {
+  background-color: cyan;
+  flex-basis: 600px;
+  text-align: center;
+  margin: 1%;
+}
+
+#contenido {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: royalblue;
+  flex-basis: auto;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+}
+

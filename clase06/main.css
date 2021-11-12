@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+  flex-basis: 25%;
+}
+
+.blue {
+  background-color: blue;
+  flex-basis: 25%;
+}
+
+.pink {
+  background-color: pink;
+  flex-basis: 25%;
+}
+
+.yellow {
+  background-color: yellow;
+  flex-basis: 25%;
+}
+
+.cyan {
+  background-color: cyan;
+  flex-basis: 25%; 
+}
+
+.purple {
+  background-color: purple;
+  flex-basis: auto;
+}
+
+.green {
+  background-color: green;
+  flex-basis: auto;
+}
