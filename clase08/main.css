@@ -1,0 +1,37 @@
+/* @media screen {
+  estilos a mostrar en este tamaño de pantalla
+} */
+
+p {
+  background-color: brown;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    color: purple;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  p {
+    background-color: aquamarine;
+    width: 50%;
+  } 
+}
+
+/* Tambien nos permiten detectar la posicion del dispositivo
+  Usando la propiedad: orientation
+  con dos valores: portrait y landscape
+*/
+
+@media (max-width: 600px) and (orientation: portrait) {
+  .green {
+    color: green;
+  }  
+}
+
+@media (max-width: 600px) and (orientation: landscape) {
+  .blue {
+    color: blue;
+  }  
+}
